@@ -39,5 +39,5 @@ stages:
     - task: AzureWebAppContainer@1
       inputs:
        appName: $(WebAppName)
-       azureSubscription: 'Azure subscription 1'
+       azureSubscription: 'd1427198-066e-4f74-a538-f60f80ab1763'
        imageName: $(RegistryName)/$(webRepository):$(build.buildId)
